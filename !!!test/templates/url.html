@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getting url</title>
+</head>
+<body>
+        <form action="{{url_for('add_url')}}" method="POST">
+        <label>url</label>
+        <input name="title" type="text"><br>
+        <button type="submit">click here to create file</button>
+        <a href={{url_for('upload_form')}}>click here to go to download page</a>
+        </form>
+</body>
+</html>
